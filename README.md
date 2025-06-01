@@ -18,7 +18,7 @@ The evaluation data is structured in JSON format, as follows:
     "id": 1,
     "task": "PosYNQ",
     "hallucination_type": "faithfulness",
-    "hallucination type": "type",
+    "evaluation_dimension": "type",
     "entity_type": "object",
     "images": [
       "./Image/1.jpg"
