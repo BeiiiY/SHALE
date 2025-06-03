@@ -8,7 +8,7 @@ The appendix for our paper is provided in Appendix.pdf.
 
 ### Evaluation Data & Code
 
-The evaluation data and code can be downloaded from this [LINK](https://1drv.ms/u/c/3990e975c588b26f/Ea3nMkDyqNhBqF4I1IG4i0ABy1J4EjLQRW6eXmlsSn5ZCw?e=0rkKS2).
+The evaluation data and code can be downloaded from this [LINK](https://1drv.ms/u/c/3990e975c588b26f/EWkj2U7q0fdDuAhQHjpVwt4BlNbFa1T1pz6OZy3usscbtw).
 
 The evaluation data is structured in JSON format, as follows:
 
@@ -34,3 +34,6 @@ The images are saved in `./Image`, and the instructions are saved in `./Query`.
 
 The evaluation code is saved in `./Evaluation`.
 
+### Construction Code
+
+The code for data construction is currently being organized and will be released very soon!
