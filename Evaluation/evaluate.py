@@ -171,8 +171,6 @@ def evaluate_OpenVQA_batch(merge_results_json, openai_key='YOUR_OPENAI_KEY'):
         question_type = results['task']
         if 'OpenVQA' not in question_type:
             continue
-        if 'gpt_output' in results.keys():
-            continue
         instruction = results['instruction']
         gt = results['Ground Truth']
         image_information = results['image_prompt']
@@ -217,8 +215,6 @@ def evaluate_OpenVQA_batch(merge_results_json, openai_key='YOUR_OPENAI_KEY'):
         if 'gpt_output' not in results.keys():
             print(results['id'])
             print('No gpt output')
-            continue
-        if 'Response1' in results.keys():
             continue
         gpt_output = results['gpt_output']
         lines = gpt_output.split("\n")
@@ -295,8 +291,6 @@ def evaluate_Caption_batch(merge_results_json, openai_key='YOUR_OPENAI_KEY'):
         question_type = results['task']
         if 'Caption' not in question_type:
             continue
-        if 'gpt_output' in results.keys():
-            continue
         instruction = results['instruction']
         gt = results['Ground Truth']
         image_information = results['image_prompt']
@@ -341,8 +335,6 @@ def evaluate_Caption_batch(merge_results_json, openai_key='YOUR_OPENAI_KEY'):
         if 'gpt_output' not in results.keys():
             print(results['id'])
             print('No gpt output')
-            continue
-        if 'Response1' in results.keys():
             continue
         gpt_output = results['gpt_output']
         lines = gpt_output.split("\n")
